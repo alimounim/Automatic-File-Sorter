@@ -1,0 +1,27 @@
+File Organizer Script
+Description:
+This Python script automatically organizes files in a specified directory into categorized subfolders based on their file types:
+
+	.csv → CSV Files
+	.txt → Text Files
+	.png → Image Files
+It ensures that files are moved to their respective folders, reducing the need for manual sorting.
+
+Dependencies
+	Python 3.x
+	os (built-in)
+	shutil (built-in)
+How to Use
+	Update the path variable in the script to point to your target directory:
+		path = r'c:\Users\YourUsername\YourFolder\\'
+	Save the script and run it in your terminal or IDE.
+		python script.py
+Files will be moved into the following folders:
+	CSV Files
+	Text Files
+	Image Files
+Customization:
+	To add more file types, edit the folder_names list and extend the for loop to include new conditions for your file extensions.
+Known Issues:
+Ensure the script has read/write access to the specified directory.
+Avoid duplicate or invalid file extensions in the folder structure.
